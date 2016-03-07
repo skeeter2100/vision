@@ -1,0 +1,15 @@
+# Precompiled header files
+*.gch
+*.pch
+
+# Object files
+*.o
+*.elf
+
+# Shared objects
+*.so
+*.so.*
+
+# Executables
+*.out
+*.hex
