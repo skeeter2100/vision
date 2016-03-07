@@ -38,7 +38,7 @@ Brief Description
 
 15. example15 - Save usb camera frames to video file.
 
-16. example16 - erode dilate filters with trackbar control
+16. example16 - trackbars control hsv color filtering
 
-17. play_avi  - Reads images from a video file. Works with .avi and .mov formats.
+17. example17  - Reads images from a video file. Works with .avi and .mov formats.
 
