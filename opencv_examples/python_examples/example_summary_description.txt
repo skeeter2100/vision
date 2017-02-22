@@ -1,0 +1,44 @@
+OpenCV - C Examples
+
+Brief Description
+
+1. example01 - open, display, and close an image
+2. example02 - access IplImage struct data members
+3. example03 - split color images into blue, green, red planes
+
+4. example04 - use opencv function cvtColor to convert a color image to grayscale
+
+5. example05 - write our own program code to convert an image to grayscale. 
+	       access image pixel data
+
+6. example06 - use cvThreshold function to change all pixel values <= threshold value
+               to zero. Pixel values > threshold value do not change. Called THRESHOLD
+	       TO ZERO.
+
+7. example07 - add a trackbar slider to a window and display slider position
+8. example08 - use trackbar slider value as threshold value for the THRESHOLD TO ZERO 
+	       filter.
+
+9. example09 - use mouse to draw rectangles on image
+
+10. example10 - captures and displays frames from a usb camera. Saves still images.
+
+11. example11 - Use mouse to draw rectangles on an image. Displays BGR color statistics
+ 		for the rectangular areas.
+
+12. example12 - Multiple trackbars provide input to inRangeS filter. Filters on HSV values.
+		Single image input.
+
+13. example13 - Multiple trackbars provide input to inRangeS filter. Filters on HSV values.
+                Video camera input.
+
+14. example14 - Multiple trackbars on multiple images. Each hsv plane is shown separately.
+		User can see the effect of filtering values on each plane and resulting image.
+		Video camera input.
+
+15. example15 - Save usb camera frames to video file.
+
+16. example16 - trackbars control hsv color filtering
+
+17. example17  - Reads images from a video file. Works with .avi and .mov formats.
+
