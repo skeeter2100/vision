@@ -10,6 +10,8 @@ Brief Description
 3. example03 - captures and displays frames from a usb camera. Shows both original 
                and grayscale images.
 
-4. 
+4. example04 - trackbar sliders control ranges of BGR inRange filter
+
+5. 
 
 
