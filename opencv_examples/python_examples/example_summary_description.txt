@@ -1,4 +1,4 @@
-OpenCV - C Examples
+OpenCV - python Examples
 
 Brief Description
 
