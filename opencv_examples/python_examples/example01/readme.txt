@@ -29,7 +29,7 @@ Date: 3/4/2017
    The program compiles and runs library successfully.  
    
    The programs are developed and tested on Ubuntu 16.04,
-   using python 2.7
+   using python 2.7.12
    
 
 
@@ -40,7 +40,6 @@ Date: 3/4/2017
 1. Folder example01 contains the following files:
 
 	example01.py
-	filled_geometric_shapes.jpg
 	readme.txt
 	
 
@@ -49,8 +48,8 @@ Date: 3/4/2017
     Change to the directory that contains the file by:
     % cd [directory_name] 
 
-    Compile the program and build the executable file:
-    % python example01.py filled_geometric_shapes.jpg
+    run the script:
+    % python example01.py ../images/example_test_images/filled_geometric_shapes.jpg
 
 
     Note: you may use any image file with the program. 
