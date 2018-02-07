@@ -6,8 +6,8 @@ import sys
 # program assumes second argument is image file name
 
 if len(sys.argv) < 2:
-	print 'error: missing command line argument for image name'
-	print 'example01.py  imageFileName'
+	print ('error: missing command line argument for image name')
+	print ('example01.py  imageFileName')
 	sys.exit(2)
 	
 imageName = sys.argv[1]
@@ -34,6 +34,25 @@ colorimg = cv2.imread(imageName, cv2.IMREAD_COLOR)
 
 grayimg = cv2.imread(imageName, cv2.IMREAD_GRAYSCALE)
 
+''' The function namedWindow creates a window that can be used as a placeholder 
+    for images and trackbars. Created windows are referred to by their names.
+
+    namedWindow( window Name, flags)
+
+    WINDOW_NORMAL flag allows user to resize the window
+
+'''
+cv2.namedWindow('color', cv2.WINDOW_NORMAL)
+cv2.namedWindow('gray', cv2.WINDOW_NORMAL)
+
+
+''' To specifically position window on screen
+    moveWindow(window name, x, y)
+'''
+cv2.moveWindow("color", 50, 50)
+cv2.moveWindow("gray", 50, 400)
+
+
 
 ''' Display an image
 
@@ -55,7 +74,7 @@ cv2.imshow('gray', grayimg)
 	If 0 is passed, it waits indefinitely for a keystroke
 
 '''
-print 'press any key to end program'
+print ('press any key to end program')
 cv2.waitKey(0)
 
 # free memory

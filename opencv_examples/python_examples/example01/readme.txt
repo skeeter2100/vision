@@ -9,7 +9,8 @@
 Program opens an image file and displays the image.
 
 Objective: Learn the OpenCV functions
-		imread, imshow, waitkey, destroyAllWindows
+		imread, namedWindow, moveWindow, imshow, waitkey, 
+    destroyAllWindows
 
 The program is well commented to help you understand the 
 functions and their parameters.
@@ -25,11 +26,11 @@ Name:	example01.py
 *******************************************************
 *  Circumstances of programs
 *******************************************************
-Date: 3/4/2017
+Date: 2/7/2018
    The program compiles and runs library successfully.  
    
    The programs are developed and tested on Ubuntu 16.04,
-   using python 2.7.12
+   using python 3.5.2
    
 
 
