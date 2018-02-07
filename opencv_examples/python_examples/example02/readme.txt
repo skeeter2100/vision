@@ -45,11 +45,11 @@ Name:	example02.py
 *******************************************************
 *  Circumstances of programs
 *******************************************************
-Date: 3/4/2017
+Date: 2/7/18
    The program runs successfully.  
    
    The programs are developed and tested on Ubuntu 16.04,
-   using python 2.7.12
+   using python 3.5.2
    
 
 

@@ -9,8 +9,8 @@ import imutils
 # program assumes second argument is image file name
 
 if len(sys.argv) < 2:
-	print 'error: missing command line argument for image name'
-	print 'example01.py  imageFileName'
+	print ('error: missing command line argument for image name')
+	print ('example01.py  imageFileName')
 	sys.exit(2)
 	
 imageName = sys.argv[1]
@@ -85,7 +85,7 @@ cv2.imshow('Final', finalimg)
 	If 0 is passed, it waits indefinitely for a keystroke
 
 '''
-print 'press any key to end program'
+print ('press any key to end program')
 cv2.waitKey(0)
 
 # free memory
