@@ -12,6 +12,6 @@ Brief Description
 
 4. example04 - trackbar sliders control ranges of BGR inRange filter
 
-5. 
+5. example05 - draw rectangles on image to sample color values 
 
 
